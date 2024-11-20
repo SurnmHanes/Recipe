@@ -1,0 +1,27 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+#main-img {
+    width: 400px;
+}
+
+.back-card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+
+    background: hsl(0, 0%, 100%);
+    color: #2b2839;
+    border-radius: 5px;
+}
+
+body {
+    background: hsl(30, 54%, 90%)
+}

@@ -93,3 +93,19 @@ ol li:before {
 
 }
 
+table {
+    width: 400px;
+    border-collapse: collapse;
+    
+}
+
+.values {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding: 10px 0px 10px 20px;
+}

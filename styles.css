@@ -23,5 +23,73 @@
 }
 
 body {
-    background: hsl(30, 54%, 90%)
+    background: hsl(30, 54%, 90%);
+    font-family: "Outfit";
+    font-size: 10px;
+    color: hsl(24, 5%, 18%)
 }
+
+.preparation {
+    background: hsl(330, 100%, 98%);
+    padding: 4px 20px;
+}
+
+@font-face{ 
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+    font-family: Outfit;
+}
+
+@font-face{ 
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+    font-family: YoungSerif;
+}
+
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "YoungSerif";
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "YoungSerif";
+    font-weight: 500;
+}
+
+li {
+    margin-bottom: 6px;
+    padding-left: 10px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+ul {
+    margin-left: -25px;
+}
+
+ol {
+    padding: 0;
+    list-style-type: none;
+    counter-reset: ordered-list;
+}
+
+ol li {
+    position: relative;
+    padding-left: 25px;
+}
+
+
+ol li:before {
+    content: counter(ordered-list) ". ";
+    counter-increment: ordered-list;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    position: absolute;
+    left:0;
+    width: 10px;
+    text-align: right;
+
+}
+
